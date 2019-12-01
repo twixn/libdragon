@@ -339,3 +339,5 @@ makeStoreInstruction stv, 0b01011
 makeStoreInstruction suv, 0b00111
 /** @brief Store Wrapped vector from Vector Register */
 makeStoreInstruction swv, 0b00111
+
+.set noreorder
